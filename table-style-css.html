@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr {
+        border-bottom: 1px solid #ddd;
+      }
+
+      tr:hover {
+        background-color:cyan;
+      }
+
+      /* table zebra horizontal style */
+
+      /* tr:nth-child(odd) {
+        background-color: #d6eeee;
+      } */
+
+      tr:nth-child(even) {
+        background-color: #d6eeee;
+      }
+
+      /* table zebra vertikal style */
+      /* th:nth-child(even),
+      td:nth-child(even) {
+        background-color: #d6eeee;
+      } */
+
+    </style>
+  </head>
+  <body>
+    <h2>Belajar Styling Tabel</h2>
+
+    <table>
+      <tr>
+        <th>Nama Depan</th>
+        <th>Nama Belakang</th>
+        <th>Nilai</th>
+      </tr>
+      <tr>
+        <td>Kurniawan</td>
+        <td>Khannedy</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Budi</td>
+        <td>Susanto</td>
+        <td>80</td>
+      </tr>
+      <tr>
+        <td>Willy</td>
+        <td>Hermawan</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>Gunawan</td>
+        <td>Mubarok</td>
+        <td>90</td>
+      </tr>
+    </table>
+  </body>
+</html>
